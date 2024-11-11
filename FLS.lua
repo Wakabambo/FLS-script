@@ -185,6 +185,11 @@ Section:NewButton("Speaker", "ButtonInfo", function()
 game:GetService("Players").LocalPlayer.Character.Speaker.Script.RemoteEvent:FireServer()
 end
 end)
+Section:NewButton("Anchor", "ButtonInfo", function()
+    for i = 1, 5000 do
+game:GetService("Players").LocalPlayer.Character.Anchor.Script.RemoteEvent:FireServer()
+end
+end)
 Section:NewButton("Building", "ButtonInfo", function()
     for i = 1, 5000 do
 game:GetService("Players").LocalPlayer.Character.Building.Script.RemoteEvent:FireServer()
@@ -232,7 +237,7 @@ end
 end)
 Section:NewButton("Moon", "ButtonInfo", function()
     for i = 1, 5000 do
-game:GetService("Players").LocalPlayer.Character.moon.Script.RemoteEvent:FireServer()
+game:GetService("Players").LocalPlayer.Character.Moon.Script.RemoteEvent:FireServer()
 end
 end)
 Section:NewButton("Mercury", "ButtonInfo", function()
